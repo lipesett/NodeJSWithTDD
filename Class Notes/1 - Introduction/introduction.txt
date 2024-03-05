@@ -1,0 +1,51 @@
+PT-BR
+04/03/2024
+Neste repositório faremos um gerenciador financeiro.
+Utilizando uma API REST em NodeJS com a segurança dos testes para feedback.
+
+Utilizaremos o design pattern TDD, ou seja, o desenvolvimento é voltado para testes.
+
+Todos os testes serão executados sempre que houver mudanças, para garantir que
+nada foi quebrado quando adicionarmos uma nova funcionalidade.
+
+Os testes serão automatizados para que tenhamos uma maior escalabilidade e garantia.
+
+Os testes não serão unitários, serão testes de serviços, ou seja, vamos testar todas
+as camadas da API, desde a chamada do SERVIÇO, passando pelo ROTEAMENTO, REGRA DE
+NEGÓCIO, CONSULTAS, BANCO DE DADOS, enfim, vamos testar a API como um todo de uma vez
+só... é um teste muito completo que trará problemas mais complexos, tal como o
+gerenciamento da massa de dados.
+
+Importante citar que utilizaremos o LINT para padronizar o código que será desenvolvido
+aqui, para que haja um padrão do início ao final do desenvolvimento.
+
+Por fim, com os testes sendo escritos primeiros, temos a garantia de que quando uma nova
+funcionalidade for criada, o que já está feito continua funcionando e o que acabou de ser
+criado, funcionará de acordo com nossos padrões de qualidade.
+
+
+
+
+ENGLISH
+03/04/2024
+In this repository we will create a financial manager.
+Using a REST API in NodeJS with test-driven security for feedback.
+
+We will use the TDD design pattern, meaning the development is test-driven.
+
+All tests will be executed whenever there are changes to ensure that nothing is broken
+when adding a new feature.
+
+The tests will be automated to ensure greater scalability and reliability.
+
+The tests will not be unit tests; they will be service tests. In other words, we will
+test all layers of the API, starting from the SERVICE call, through ROUTING, BUSINESS RULES,
+QUERIES, DATABASE, in short, we will test the API as a whole in one go... It's a very
+comprehensive test that will uncover more complex issues, such as data mass management.
+
+It's important to mention that we will use LINT to standardize the code that will be
+developed here, ensuring a consistent pattern from start to finish of the development.
+
+Lastly, with tests being written first, we have the assurance that when a new feature is
+created, what's already done continues to function, and what has just been created will
+work according to our quality standards.
