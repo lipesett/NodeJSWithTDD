@@ -1,0 +1,34 @@
+PT-BR
+05/03/2024
+O que é o NodeJS? O NodeJS não é uma linguagem de programação, ou seja,
+você não programa em NodeJS, você programa em JavaScript. 
+
+O NodeJS é, basicamente, uma plataforma aonde a aplicação será executada.
+
+O NodeJS irá interpretar, otimizar e executar esses códigos.
+Ele é muito utilizado para criar aplicações do lado do servidor, que é
+o foco aqui, criar uma API REST para que outras aplicações possam utilizá-la.
+
+Para Windowns, é recomendado utilizar sempre a versão LTS, por ser mais
+estável e com pouca variância.
+
+Link: https://nodejs.org/en
+Versão do NodeJS utilizada neste repositório: 20.11.1 LTS
+
+
+ENGLISH
+03/05/2024
+What is Node.js? Node.js is not a programming language, in other words, you 
+don't program in Node.js, you program in JavaScript.
+
+Node.js is basically a platform where the application will be executed.
+
+Node.js will interpret, optimize, and execute these codes.
+It is widely used to create server-side applications, which is the focus here,
+creating a REST API for other applications to use.
+
+For Windows, it is recommended to always use the LTS version, as it is more
+stable with less variance.
+
+Link: https://nodejs.org/en
+Version of Node.js used in this repository: 20.11.1 LTS
