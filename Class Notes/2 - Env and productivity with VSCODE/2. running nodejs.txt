@@ -1,0 +1,16 @@
+PT-BR
+05/03/2024
+Aqui criamos um arquivo simples apenas para introduzir algumas
+funções simples e a executarmos utilizando o NodeJS.
+
+Para executar um arquivo NodeJS, basta digitarmos no console:
+node nome_do_arquivo.js
+
+
+ENGLISH
+03/05/2024
+Here we create a simple file just to introduce some basic
+functions and run them using NodeJS.
+
+To run a NodeJS file, simply type in the console:
+node file_name.js
