@@ -1,0 +1,89 @@
+PT-BR
+05/03/2024
+Neste ponto do projeto, iremos adicionar o LINT para termos o
+mínimo de uniformidade no código. O LINT irá fazer a manutenção
+do código para que o mesmo esteja sempre em harmonia, não
+importando o tamanho da equipe que irá trabalhar no projeto, o
+código permancerá padronizado.
+
+A primeira coisa que deve ser feito é transformar o projeto todo
+em um projeto gerenciado pelo NPM (Node Package Manager) que já
+vem na instalação do NodeJS.
+
+Então, para começo de conversa, usarei o comando "npm init -y".
+Este comando irá transformar meu projeto padrão num projeto
+gerenciado pelo NPM e o "-y" serve para que todas as perguntas
+feitas durante a configuração do NPM sejam respondidas com "YES".
+
+Após a instalação/configuração do NPM, podemos adicionar dependências
+ou bibliotecas ao projeto, justamente o que é o LINT, uma biblioteca.
+
+O comando utilizado para instalação do LINT é 
+"npm install eslint --save-dev". O comando "--save-dev" garante que
+estamos instalando o LINT apenas para o ambiente de desenvolvimento,
+já que não precisamos dele em produção.
+
+Feito a instalação do LINT, agora é hora de iniciarmos de fato a 
+biblioteca dentro do projeto, para isso, nós iremos rodar o comando
+"npm init @eslint/config" para criar a configuração inicial do LINT.
+Algumas perguntas serão feitas para você configurar seu LINT da
+maneira que quiser. Concluído a instalação, será criado um arquivo
+".eslintrc.json" onde estão armazenadas as configurações do LINT.
+
+Para verificar se seu LINT está funcionando, na raiz de seu projeto
+rode o comando "npx eslint ." para verificar todos os arquivos. OBS:
+O LINT só devolve um retorno visual caso encontre erro, se não existir
+nenhum erro em relação ao LINT, ele não retornará nada.
+
+Você pode remover, alterar e adicionar novas regras no ".eslintrc".
+
+Alguns erros mais simples podem ser consertados pelo "--fix" após o
+comando de início do LINT. Outros serão apenas acusados para que você
+mesmo o arrume.
+
+Por fim, foi adicionado aos scripts (package.json) o atalho para
+rodarmos o ESLINT diretamente pelo NPM.
+
+
+ENGLISH
+03/07/2024
+At this point in the project, we will add the LINT to ensure a minimum
+level of code uniformity. The LINT will maintain the code so that it
+is always in harmony, regardless of the size of the team working on the
+project; the code will remain standardized.
+
+The first thing that must be done is to turn the entire project into an
+NPM-managed project (Node Package Manager), which comes with the
+installation of NodeJS.
+
+So, to begin with, I will use the command "npm init -y". This command
+will turn my default project into an NPM-managed project, and the "-y"
+is used so that all questions asked during the NPM configuration are
+answered with "YES".
+
+After installing/configuring NPM, we can add dependencies or libraries
+to the project, precisely what the LINT is, a library.
+
+The command used to install LINT is "npm install eslint --save-dev".
+The "--save-dev" command ensures that we are installing the LINT only
+for the development environment, as we do not need it in production.
+
+Once the LINT is installed, it is time to actually start the library
+within the project. For this, we will run the command
+"npm init @eslint/config" to create the initial configuration of the
+LINT. Some questions will be asked for you to configure your LINT as you
+like. After the installation is complete, a ".eslintrc.json" file will
+be created where the LINT configurations are stored.
+
+To check if your LINT is working, in the root of your project, run the
+command "npx eslint ." to check all files. Note: The LINT only provides
+a visual return if it finds an error; if there are no errors regarding
+the LINT, it will not return anything.
+
+You can remove, change, and add new rules in the ".eslintrc".
+
+Some simpler errors can be fixed by using "--fix" after the LINT startup
+command. Others will only be reported for you to fix.
+
+Finally, a shortcut was added to the scripts (package.json) to run ESLINT
+directly through NPM.
