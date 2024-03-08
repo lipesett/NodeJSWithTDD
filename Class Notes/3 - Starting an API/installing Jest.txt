@@ -1,0 +1,51 @@
+PT-BR
+05/03/2024
+Sabendo que o desenvolvimento do projeto é voltado inteiramente
+para testes, nós iremos instalar e iniciar o nosso gerenciador
+de testes, o JEST.
+
+Então, como sempre, comecei instalando o JEST com o comando
+"npm i -D jest" (todos os frameworks/bibliotecas instaladas neste
+projeto são as últimas versões disponíveis).
+
+Terminado a instalação, podemos rodar o comando "npx jest" para
+rodarmos a bateria de testes. Obviamente não temos testes prontos
+então o JEST retornará "No tests found".
+
+Também adicionei aos padrões do package.json, na parte de "test"
+o comando "jest", para que possa rodar o teste via comando "npm test".
+
+Importante não esquecer de colocar no ".eslintrc.json" que agora
+usamos JEST para fazer os testes, se não o LINT irá apontar como erro.
+
+Instalamos também o Types/Jest para termos o autocomplete dos
+comandos do JEST, para isso, usamos "npm i @types/jest".
+
+Agora que temos nossa primeira suíte de testes com algumas diretivas,
+vamos de fato trabalhar na construção da API.
+
+
+ENGLISH
+05/03/2024
+Knowing that the project development is entirely focused on testing,
+we will install and start our testing framework, JEST.
+
+So, as always, I started by installing JEST with the command
+"npm i -D jest" (all frameworks/libraries installed in this project
+are the latest available versions).
+
+After the installation is complete, we can run the command "npx jest"
+to run the test suite. Obviously, we don't have tests ready, so JEST
+will return "No tests found".
+
+I also added to the package.json standards, in the "test" section, the
+command "jest", so that I can run the test via the command "npm test".
+
+It's important not to forget to specify in the ".eslintrc.json" that
+we are now using JEST for testing, otherwise, LINT will report an error.
+
+We also installed Types/Jest to have autocomplete for JEST commands,
+for that, we used "npm i -D @types/jest".
+
+Now that we have our first test suite with some directives, let's
+actually start working on building the API.
