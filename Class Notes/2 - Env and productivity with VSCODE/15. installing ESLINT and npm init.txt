@@ -1,5 +1,5 @@
 PT-BR
-05/03/2024
+07/03/2024
 Neste ponto do projeto, iremos adicionar o LINT para termos o
 mínimo de uniformidade no código. O LINT irá fazer a manutenção
 do código para que o mesmo esteja sempre em harmonia, não
