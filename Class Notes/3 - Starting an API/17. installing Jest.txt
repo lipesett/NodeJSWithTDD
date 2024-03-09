@@ -1,5 +1,5 @@
 PT-BR
-08/03/2024
+07/03/2024
 Sabendo que o desenvolvimento do projeto é voltado inteiramente
 para testes, nós iremos instalar e iniciar o nosso gerenciador
 de testes, o JEST.
@@ -26,7 +26,7 @@ vamos de fato trabalhar na construção da API.
 
 
 ENGLISH
-03/08/2024
+03/07/2024
 Knowing that the project development is entirely focused on testing,
 we will install and start our testing framework, JEST.
 
