@@ -1,0 +1,76 @@
+PT-BR
+09/03/2024
+Aqui começamos a montar a base da API, começando pela construção do
+teste (TDD) para então começarmos a construir o servidor. Lembrando
+que os testes garantem o funcionamento correto do servidor.
+
+Lembrando que por mais cenários e testes que fazemos, provavelmente
+não irá livrar nossa aplicação de erros e mau funcionamento, porém,
+temos a garantia que nos cenários testados, irá funcionar conforme
+o esperado.
+
+Para nos auxiliar com os testes, iremos estar mais uma biblioteca,
+o "SUPERTEST". O comando é "npm i -D supertest".
+
+Importante destacar que precisamos cuidar do sincronismo dos testes,
+principalmente aqueles que retornam "promisses", pois como o teste
+faz uma requisição assíncrona, o JEST pode entender que o teste rodou
+sem problemas, passando para o próximo passo, não se importando com
+o resultado em si e sim se ele foi executado... para isso, precisamos
+adicionar alguma forma de esperar que a requisição seja concluída,
+seja com "return" ou com "async/await".
+
+Finalmente para subirmos o servidor, precisamos do já conhecido
+"EXPRESS", sem ele não teremos servidor. Para instalar iremos
+utilizar o comando "npm i -S express", dessa vez utilizamos o "-S"
+pois não será uma dependência apenas de desenvolvimento, mas sim
+do projeto todo.
+
+Após a instalação e configuração do servidor, basta subir a aplicação
+utilizando o comando "node src/server.js" e rodando nosso teste.
+
+Feito isso, nosso primeiro teste foi escrito, executado e satisfeito.
+
+Todo nosso feedback de funcionamento se dará pelo resultado dos
+testes... não iremos utilizar browser ou softwares que testam
+endpoints (como o POSTMAN). Os testes devem nos passar a confiança
+de que tudo está funcionando perfeitamente, de acordo com os
+cenários que testamos.
+
+
+ENGLISH
+05/09/2024
+Here we start building the foundation of the API, beginning with the
+construction of the test (TDD) to then start building the server.
+Remember that tests ensure the correct functioning of the server.
+
+It is important to note that no matter how many scenarios and tests
+we perform, it will probably not prevent our application from errors
+and malfunctions. However, we have the guarantee that in the tested
+scenarios, it will work as expected.
+
+To assist us with the tests, we will be using another library, "SUPERTEST".
+The command is "npm i -D supertest".
+
+It is important to emphasize that we need to take care of the
+synchronization of the tests, especially those that return "promises",
+because as the test makes an asynchronous request, JEST may understand that
+the test ran without problems, moving on to the next step, not caring about
+the result itself but whether it was executed... for that, we need to add
+some way to wait for the request to be completed, either with "return" or
+with "async/await".
+
+Finally, to start the server, we need the well-known "EXPRESS", without
+which we will not have a server. To install, we will use the command
+"npm i -S express", this time we use "-S" because it will not be a development
+dependency only, but rather of the whole project.
+
+After installing and configuring the server, simply start the application
+using the command "node src/server.js" and run our test.
+
+Once this is done, our first test was written, executed, and satisfied.
+
+All our feedback on the functioning will be given by the result of the tests...
+we will not use a browser or software that tests endpoints (like POSTMAN).
+The tests should give us the confidence that everything is working perfectly,
+according to the scenarios we tested.
