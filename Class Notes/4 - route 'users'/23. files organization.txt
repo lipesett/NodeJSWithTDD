@@ -1,0 +1,54 @@
+PT-BR
+10/03/2024
+Com a aplicação crescendo e tomando forma, fica
+imprenscindível a organização dos arquivos e códigos,
+para não virar uma bagunça completa.
+
+E mais uma vez, uma dependência fará isso por mim.
+A instalação da vez é "CONSIGN", uma dependência
+de organização.
+
+O processo de instalação de dependência segue o mesmo,
+sendo "npm i -S consign".
+
+Feito a instalação da dependência, irei refatorar
+algumas partes de código, de forma que fique mais
+organizado. Importante ressaltar que farei isso com
+o "secure-mode" ligado, para que eu tenha feedback
+instantâneo do que estou fazendo, se aquela mudança
+que apliquei irá quebrar algo dentro da aplicação.
+
+Dito isso, começo com a criação do arquivo que irá
+cuidar exclusivamente dos middlewares da minha
+aplicação.
+
+Após fazer a refatoração (e com a ajuda do 'secure-mode'
+para saber se tudo está bem) o código segue em
+funcionamento perfeito, podendo avançar para as
+próximas etapas.
+
+ENGLISH
+03/10/2024
+With the application growing and taking shape, organizing
+files and code becomes essential to avoid becoming a
+complete mess.
+
+And once again, a dependency will do this for me. The
+installation this time is "CONSIGN", a dependency for
+organization.
+
+The dependency installation process remains the same,
+being "npm i -S consign".
+
+After installing the dependency, I will refactor some parts
+of the code to make it more organized. It is important to
+note that I will do this with "secure-mode" enabled, so that
+I have instant feedback on what I am doing, whether the
+changes I applied will break anything within the application.
+
+That said, I begin by creating the file that will exclusively
+handle the middlewares of my application.
+
+After refactoring (and with the help of 'secure-mode' to
+know if everything is fine), the code continues to work
+perfectly, allowing me to move on to the next steps.
