@@ -1,0 +1,42 @@
+PT-BR
+10/03/2024
+Para que não tenhamos que ficar subindo o servidor
+todas as vezes que formos rodar nossa bateria de
+testes, vamos encarregar o SUPERTEST de fazer
+esse trabalho. Para isso, irei criar mais alguns
+arquivos para formar a base da API.
+
+Como sempre, primeiramente o teste é criado e após
+isso, tudo o que é necessário para satisfazê-lo.
+
+Do modo que foi construído, a aplicação poderá
+ser utilizada tanto pelo teste quanto em produção.
+
+De forma que todas as alterações feitas dentro de
+'app.js' reflitam para o servidor, já que o módulo
+foi exportado.
+
+Como já foi abstraído todos os recursos de servidor
+e aplicação para outros módulos, o arquivo de teste
+'server.test.js' não se faz mais necessário, portanto
+foi excluído.
+
+ENGLISH
+03/10/2024
+So that we don't have to keep bringing up the server
+every time we run our tests, we will delegate the SUPERTEST
+to do this work. For that, I will create a few more files
+to form the base of the API.
+
+As always, first the test is created and then everything
+necessary to satisfy it.
+
+The way it was built, the application can be used both for
+testing and in production.
+
+So that all changes made within 'app.js' reflect on the
+server, since the module was exported.
+
+Since all server and application resources have already been
+abstracted to other modules, the 'server.test.js' test file
+is no longer necessary, so it was deleted.
