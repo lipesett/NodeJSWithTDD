@@ -1,0 +1,57 @@
+PT-BR
+10/03/2024
+Aqui adicionei um recurso que chamo de "MODO DE
+SEGURANÇA". Isso nada mais é do que uma 
+funcionalidade do JEST que, uma vez habilitada
+nos dará feedback instantâneo em relação ao nosso
+código.
+
+Basicamente, sempre que eu salvar um arquivo, o
+JEST vai rodar todas as suítes de testes, retornando
+praticamente instantâneamente se nosso novo código
+está funcionando ou se quebrou algo que já funcionava.
+
+Para isso, foi adicionado no arquivo 'package.json',
+na parte de 'scripts' o comando
+'"secure-mode": "jest --watch"' e o iniciamos com o
+comando "npm run secure-mode" (lembrando que o 'npm'
+só usa obrigatóriamente o 'run' para os comandos
+'start' e 'test', no mais, é obrigatório o uso do 'run').
+Também adicionei ao comando o '--verbose=true' para que
+o JEST retorne quais os testes rodaram em cada suíte.
+
+Como não foi feita nenhuma alteração ao rodar o comando,
+nenhum teste será feito agora, porém ele ficará monitorando
+a aplicação... assim que um salvamento (ctrl+s) for feito
+o JEST rodará todas as suítes de testes (sim, da API toda).
+
+Este modo pega qualquer alteração em qualquer arquivo
+relevante para o projeto (.js, .json, etc), então a medida
+que evoluo a aplicação, o JEST segue monitorando a saúde
+de tudo.
+
+ENGLISH
+03/10/2024
+Here I added a feature that I call "SECURITY MODE". This is
+nothing more than a functionality of JEST that, once enabled,
+will give us instant feedback regarding our code.
+
+Basically, whenever I save a file, JEST will run all test
+suites, returning almost instantly whether our new code is
+working or if something that was already working is broken.
+
+For this, the command '"secure-mode": "jest --watch"' was added
+to the 'package.json' file, in the 'scripts' section, and we
+start it with the command "npm run secure-mode" (remembering that
+'npm' only requires 'run' for 'start' and 'test' commands, otherwise,
+'run' is mandatory). I also added '--verbose=true' to the command so
+that JEST returns which tests ran in each suite.
+
+Since no changes were made when running the command, no tests will
+be performed now, but it will be monitoring the application... as
+soon as a save (ctrl+s) is made JEST will run all test suites
+(yes, the entire API).
+
+This mode picks up any changes in any file relevant to the project
+(.js, .json, etc), so as I evolve the application, JEST continues to
+monitor the health of everything.
