@@ -1,0 +1,53 @@
+PT-BR
+10/03/2024
+Passando para a próxima funcionalidade, irei criar
+o endpoint de inserção, um POST. Obviamente ainda
+me refiro a dados mock pois não conectei o banco
+de dados.
+
+E como de costume o teste será desenvolvido primeiro.
+
+Note que mesmo após a criação do teste e dos recursos
+criados para que o teste fosse concluído com sucesso
+(sempre o mínimo possível para que o teste passe), o
+teste falhará, pois ele espera receber um "nome" e recebe
+"undefined"... então, irei instalar uma dependência que
+se encarregará de pegar o que eu enviar no ".send" e
+adicionar no "req.body".
+
+A dependência chama-se "BODY PARSER". Para instalá-la é
+como de costume, o comando é "npm i -S body-parser". Como
+não é uma dependência apenas de desenvolvimento, usamos o
+"-S".
+
+Após a instalação, basta importá-lo para o arquivo 'app.js'
+antes de toda a lógica, para que ele seja ativado primeiro.
+
+Feito isso, o teste irá passar com sucesso, concluindo mais
+uma etapa da API.
+
+
+ENGLISH
+03/10/2024
+Moving on to the next functionality, I will create the
+insertion endpoint, a POST. Obviously, I'm still referring
+to mock data because I haven't connected to the database.
+
+And as usual, the test will be developed first.
+
+Note that even after creating the test and the resources created
+for the test to be successfully completed (always the minimum
+necessary for the test to pass), the test will fail because it
+expects to receive a "name" and receives "undefined"... So, I will
+install a dependency that will take care of getting what I send in
+".send" and adding it to "req.body".
+
+The dependency is called "BODY PARSER". To install it, as usual, the
+command is "npm i -S body-parser". Since it's not just a development
+dependency, we use "-S".
+
+After installation, simply import it into the 'app.js' file before all
+the logic so that it is activated first.
+
+With that done, the test will pass successfully, concluding another
+step of the API.
