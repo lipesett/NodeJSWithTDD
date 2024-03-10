@@ -1,8 +1,9 @@
 const app = require('express')();
-const bodyParser = require('body-parser');
+const consign = require('consign');
 
-// EXECUTING BODY-PARSER FIRST
-app.use(bodyParser.json());
+consign({ cwd: 'src', verbose: false })
+    .include('./config/middlewares.js')
+    .into(app);
 
 // HOME PAGE
 app.get('/', (req, res) => {
