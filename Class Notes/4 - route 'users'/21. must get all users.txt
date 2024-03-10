@@ -1,0 +1,17 @@
+PT-BR
+10/03/2024
+Aqui adicionei um recurso que chamo de "MODO DE
+Depois de tudo configurado, testado e rodando, eu
+finalmente comecei a construção do primeiro endpoint
+da API, a rota "/users".
+
+Como sempre, primeiramente o teste será criado e
+depois as métricas para atende-lo.
+
+O primeiro de todos foi o famoso 'getAll' para trazer
+todos os usuários... este teste será refatorado quando
+eu adicionar banco de dados ao projeto, por enquanto
+o teste será feito com dados mockados.
+
+ENGLISH
+03/10/2024
