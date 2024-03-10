@@ -1,4 +1,4 @@
-// ALL TESTS RELATED TO THE APP WILL BE HERE
+// ALL TESTS RELATED TO THE APP WILL BE HERE!
 const request = require('supertest');
 
 const app = require('../src/app.js');
