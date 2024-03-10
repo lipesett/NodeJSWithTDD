@@ -1,5 +1,4 @@
 // ALL TESTS RELATED TO THE SERVER WILL BE HERE
-
 const supertest = require("supertest");
 
 const request = supertest('http://localhost:3001');
