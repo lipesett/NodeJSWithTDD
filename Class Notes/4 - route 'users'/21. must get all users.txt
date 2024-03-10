@@ -1,6 +1,5 @@
 PT-BR
 10/03/2024
-Aqui adicionei um recurso que chamo de "MODO DE
 Depois de tudo configurado, testado e rodando, eu
 finalmente comecei a construção do primeiro endpoint
 da API, a rota "/users".
@@ -15,3 +14,13 @@ o teste será feito com dados mockados.
 
 ENGLISH
 03/10/2024
+After everything is set up, tested and running, I
+finally started building the first endpoint of the API,
+the route "/users".
+
+As always, first the test will be created and then the
+metrics to meet it.
+
+The first of all was the famous 'getAll' to bring all users...
+this test will be refactored when I add a database to the
+project, for now the test will be done with mocked data.
