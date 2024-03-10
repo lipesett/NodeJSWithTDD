@@ -1,9 +1,15 @@
 const app = require('express')();
+const bodyParser = require('body-parser');
 
+// EXECUTING BODY-PARSER FIRST
+app.use(bodyParser.json());
+
+// HOME PAGE
 app.get('/', (req, res) => {
     res.status(200).send();
 });
 
+// GET ALL USERS
 app.get('/users', (req, res) => {
     const users = [
         {
@@ -12,6 +18,11 @@ app.get('/users', (req, res) => {
         }
     ];
     res.status(200).json(users);
+});
+
+// POST USER
+app.post('/users', (req, res) => {
+    res.status(201).json(req.body);
 });
 
 module.exports = app;
