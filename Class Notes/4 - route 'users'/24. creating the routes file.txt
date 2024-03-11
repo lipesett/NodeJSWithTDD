@@ -1,0 +1,59 @@
+PT-BR
+11/03/2024
+A fim de ter uma maior organização nos arquivos e também
+evitar muito retrabalho conforme a aplicação ganha corpo,
+irei refatorar a parte de rotas, para que essa parte vital
+da aplicação, fique separada do restante.
+
+Dessa forma, além de ganhar tempo na adição de novas rotas
+e testes nas rotas existentes, o código fica mais limpo e
+legível.
+
+Como estou trabalhando neste momento com 'users', irei
+criar o arquivo de rotas que diz respeito aos 'users', com
+os métodos que já temos hoje... lembrando, em todo o
+processo de refatoração, estarei com o 'secure-mode' ligado
+para ter feedback instantâneo das minhas mudanças.
+
+Note que realizei uma mudança drástica na arquitetura da
+minha aplicação, refatorei códigos e criei novos arquivos...
+Se eu fosse testar todas as partes alteradas, tomaria um
+tempo valioso de desenvolvimento, mas como eu tenho todos
+os testes preparados e trabalho no modo seguro, assim que
+salvei minhas alterações, eu tive um feedback em INCRÍVEIS
+'0.965' SEGUNDOS !!!
+
+Aqui vemos a importância de ter testes automatizados e que
+cobrem com clareza os cenários fornecidos... claro, ainda
+temos poucas rotas com funcionalidades simples, mas eu tenho
+a certeza que de qualquer coisa que farei daqui para frente,
+meus testes dirão se está correto ou não!
+
+ENGLISH
+03/11/2024
+In order to have better organization in the files and also
+to avoid a lot of rework as the application grows, I will
+refactor the routes section so that this vital part of the
+application is separated from the rest.
+
+This way, besides saving time in adding new routes and
+testing existing ones, the code becomes cleaner and more
+readable.
+
+As I am currently working with 'users', I will create the
+routes file related to 'users', with the methods we already
+have today...Remember, throughout the refactoring process, I
+will have 'secure-mode' enabled to have instant feedback on my
+changes.
+
+Note that I made a drastic change in the architecture of my
+application, refactored codes, and created new files... If I
+were to test all the altered parts, it would take valuable
+development time, but since I have all the tests prepared and
+work in secure mode, as soon as I saved my changes, I had feedback
+in an AMAZING '0.965' SECONDS!!!
+
+Here we see the importance of having automated tests that clearly
+cover the provided scenarios... Of course, we still have a few
+routes with simple functionalities, but I am confident that whatever
+I do from now on, my tests will tell me if it is correct or not!
