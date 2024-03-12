@@ -18,4 +18,6 @@ Jest;<br>
 Supertest;<br>
 Express;<br>
 Body-Parser;<br>
-Consign;
+Consign;<br>
+Knex;<br>
+PG (Postgres);
