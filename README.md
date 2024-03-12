@@ -10,7 +10,7 @@
 ♦ Strategies for managing mass data<br>
 ♦ Manage in-app logs
 
-Stacks used:
+Stacks used:<br>
 NodeJS;<br>
 Eslint;<br>
 Jest;<br>
