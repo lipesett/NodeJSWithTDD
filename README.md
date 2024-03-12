@@ -11,11 +11,11 @@
 ♦ Manage in-app logs
 
 Stacks used:
-NodeJS;
-Eslint;
-Jest;
-@types/jest;
-Supertest;
-Express;
-Body-Parser;
+NodeJS;<br>
+Eslint;<br>
+Jest;<br>
+@types/jest;<br>
+Supertest;<br>
+Express;<br>
+Body-Parser;<br>
 Consign;
