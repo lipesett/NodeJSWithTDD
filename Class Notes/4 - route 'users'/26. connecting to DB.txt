@@ -1,0 +1,69 @@
+PT-BR
+12/03/2024
+Irei finalmente acrescentar um pouco mais de complexidade
+e também um cenário mais próximo da realidade.
+
+Farei a conexão com o banco de dados e irei criar os
+modelos das tabelas conforme for avançando com o
+desenvolvimento da API.
+
+Alguns trechos de códigos, tanto testes quanto classes
+terão de ser refatoradas para atender a conexão com o
+banco de dados.
+
+Logo de cara, farei a instalação do 'KNEX', daquela
+forma mais simples "npm i -S knex". Após instalado,
+instalo também o banco de dados "npm i -S pg" pois
+o banco de dados que utilizo neste projeto é o POSTGRES.
+
+Irei trabalhar com 'code-first' para o meu banco de dados,
+ou seja, primeiro eu crio os scripts que irão para o banco
+de dados, passo para as MIGRATIONS para que elas façam
+o trabalho de criar e/ou retornar um estado do banco de 
+dados.
+
+Primeiro começo criando a MIGRATIONS com o seguinte comando:
+"node_modules/.bin/knex migrate:make create_users --env test".
+Feito isso, nós iremos alimentar a migrations com os dados de
+criação e destruição, para caso precise ser feito um rollback
+no banco.
+
+Devidamente estruturado o arquivo, basta rodar o comando
+"node_modules/.bin/knex migrate:latest create_users --env test".
+Serão criadas 3 tabelas nessa primeira instância: a tabela que
+foi pedida ('users') e duas tabelas de controle do KNEX.
+
+São essas duas tabelas do KNEX que fazem o controle do estado
+em que o banco se encontra, caso seja preciso fazer um rollback.
+
+ENGLISH
+03/12/2024
+I will finally add a bit more complexity and also a scenario
+closer to reality.
+
+I will connect to the database and create table models as I progress
+with the API development.
+
+Some code snippets, both tests and classes, will need to be
+refactored to accommodate the database connection.
+
+Right off the bat, I will install 'KNEX', in the simplest way,
+"npm i -S knex". Once installed, I will also install the database
+"npm i -S pg" because the database I use in this project is POSTGRES.
+
+I will work with 'code-first' for my database, meaning, first I create
+the scripts that will go to the database, then I move on to MIGRATIONS
+so that they do the work of creating and/or returning a database state.
+
+First, I start by creating the MIGRATIONS with the following command:
+"node_modules/.bin/knex migrate:make create_users --env test". Once done,
+we will populate the migrations with creation and destruction data, in
+case a rollback needs to be done on the database.
+
+With the file properly structured, just run the command
+"node_modules/.bin/knex migrate:latest create_users --env test". Three
+tables will be created in this first instance: the requested table ('users')
+and two KNEX control tables.
+
+These two KNEX tables control the state of the database, in case a rollback
+is needed.
