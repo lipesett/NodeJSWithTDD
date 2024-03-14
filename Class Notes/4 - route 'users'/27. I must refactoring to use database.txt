@@ -1,0 +1,44 @@
+PT-BR
+13/03/2024
+Neste ponto começo a refatorar o código com a finalidade de
+utilizar agora o banco de dados e não mais dados fixo (mock)
+para os testes.
+
+Primeiramente preparo o arquivo 'app.js' para receber as
+conexões feitas com o 'KNEX'. Graças ao 'CONSIGN' que está
+juntando tudo dentro do arquivo 'app.js', é muito fácil para
+adicionar novos recursos à aplicação.
+
+Como nesta altura do desenvolvimento eu só possuo a classe 'users',
+meu refatoramento será mais rápido e fácil...irei resolver alguns
+'TODOs' que inseri conforme avançava com o projeto.
+
+Além de refatorar as classes e métodos de comunicação com o banco e
+também algumas configurações da aplicação, também devo refatorar
+os testes, que antes estavam com valores fixos, agora irão receber
+uma massa de dados vindo do banco que foi conectado.
+
+Feito a refatoração das classes, arquivos de configurações e também
+dos testes, podemos prosseguir criando mais funcionalidades e criando
+também logs.
+
+ENGLISH
+03/13/2024
+At this point, I begin refactoring the code in order to use the database
+instead of fixed (mock) data for testing.
+
+Firstly, I prepare the 'app.js' file to handle connections made with 'KNEX'.
+Thanks to 'CONSIGN', which is consolidating everything inside the 'app.js'
+file, it's very easy to add new features to the application.
+
+Since at this stage of development I only have the 'users' class, my refactoring
+will be faster and easier... I'll address some 'TODOs' that I inserted as I
+progressed with the project.
+
+In addition to refactoring the classes and methods for communication with the
+database, as well as some application settings, I also need to refactor the tests,
+which previously had fixed values but will now receive a dataset coming from the
+connected database.
+
+Once the classes, configuration files, and tests have been refactored, we can proceed
+to create more features and also implement logging.
