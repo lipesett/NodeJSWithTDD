@@ -1,0 +1,43 @@
+PT-BR
+16/03/2024
+Aqui vou adicionar um novo recurso que irá loggar todas
+as passagens que eu fizer pelo banco de dados, utilizando
+o "KNEX-LOOGER". Importante ressaltar que a última versão
+disponibilizada do knex-logger foi a 10 anos atrás, porém
+já utilizei em outros projetos e funcionou bem... então,
+irei utilizar novamente.
+
+Aquele simples comando de instalação "npm i -S knex-logger"
+e aguardo finalizar.
+
+Assim que concluir, basta adicionar no 'app.js' para que
+seja utilizado pela aplicação.
+
+Claro que isso não ficará ligado para sempre na aplicação
+pois polui muito o terminal, então o certo é utilizar quando
+preciso saber exatamente a consulta que foi feita para o
+banco.
+
+Por ora, irei deixar ligado.
+
+
+ENGLISH
+03/16/2024
+Here I am going to add a new feature that will log all the
+queries I make through the database, using "KNEX-LOOGER".
+It's important to note that the last version available of
+knex-logger was 10 years ago, however, I have used it in other
+projects and it worked well... so, I will use it again.
+
+That simple installation command "npm i -S knex-logger" and
+wait for it to finish.
+
+Once it's done, just add it to 'app.js' to be used by the
+application.
+
+Of course, this won't be turned on forever in the application
+because it pollutes the terminal too much, so it's right to use
+it when you need to know exactly the query that was made to the
+database.
+
+For now, I'll leave it on.
