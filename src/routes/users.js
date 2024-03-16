@@ -1,7 +1,7 @@
 module.exports = (app) => {
     // GET ALL USERS
     const getAll = (req, res) => {
-        app.db('users').select()
+        app.services.user.getAll()
             .then(result => res.status(200).json(result))
     };
 
@@ -13,7 +13,7 @@ module.exports = (app) => {
     */
     // POST USER
     const create = async (req, res) => {
-        const result = await app.db('users').insert(req.body, '*');
+        const result = await app.services.user.create(req.body);
         res.status(201).json(result[0]);
     };
 
