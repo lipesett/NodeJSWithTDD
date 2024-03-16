@@ -20,4 +20,5 @@ Express;<br>
 Body-Parser;<br>
 Consign;<br>
 Knex;<br>
-PG (Postgres);
+PG (Postgres);<br>
+Knex-Logger;
