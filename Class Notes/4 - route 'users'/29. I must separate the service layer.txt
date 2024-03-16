@@ -1,0 +1,33 @@
+PT-BR
+16/03/2024
+Irei mais uma vez refatorar este código. Minnha
+intenção agora é separar os serviços de dentro das
+rotas, ou seja, criando uma camada de serviços que
+serão chamadas a partir das rotas.
+
+Então, a primeira coisa a se fazer é criar uma
+camada de serviços, com suas respectivas responsabilidades.
+Após isso, devo tirar os serviços propriamente ditos de
+dentro das rotas e passar para esse novo arquivo.
+
+Tudo separado, incorporado ao contexto com o CONSIGN e com
+os testes me dando feedback ao vivo, sei que a refatoração
+foi um sucesso e nada foi quebrado dentro da API, sendo assim
+posso avançar... agora para validação de dados!
+
+
+ENGLISH
+03/16/2024
+Once again, I will refactor this code. My intention now is to
+separate the services from within the routes, meaning, creating
+a service layer that will be called from the routes.
+
+So, the first thing to do is to create a service layer, with
+its respective responsibilities. After that, I should remove
+the actual services from within the routes and pass them to this
+new file.
+
+With everything separated, incorporated into the context with
+CONSIGN and with the tests giving me live feedback, I know that
+the refactoring was successful and nothing was broken within
+the API, so I can move forward... now onto data validation!
