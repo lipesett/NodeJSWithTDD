@@ -4,6 +4,7 @@ module.exports = (app) => {
     };
 
     const create = async (user) => {
+        if (!user.name) return { error: 'Name is required' };
         return app.db('users').insert(user, '*');
     };
 
