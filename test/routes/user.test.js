@@ -35,3 +35,12 @@ test('Must inserting a user', () => {
             expect(res.body.name).toBe("Felipe Lucas");
         })
 });
+
+test('User must not be inserted without a name', () => {
+    request(app).post('/users')
+        .send({ "email": "n@email.com", "password": 123456 })
+        .then(res => {
+            expect(res.statusCode).toBe(400);
+            expect(res.body.error).toBe('Name is required');
+        });
+});
