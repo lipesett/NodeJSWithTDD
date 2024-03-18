@@ -1,0 +1,58 @@
+PT-BR
+16/03/2024
+Como o nome sugere, irei adaptar o teste e o método para
+que seja impossível inserir um usuário sem nome. Embora
+essa validação possa ser colocada direto no banco de dados
+apontado para aquele atributo um 'Not null', não há
+nenhuma necessidade de chegarmos até a última camada da
+aplicação sendo que podemos interceptar isso antes.
+
+Primeiramente, na camada de SERVIÇOS, antes de salvar de
+fato, eu estou validando o nome do usuário e caso ele não
+tenha sido informado, eu retorno um objeto 'ERROR' com 
+uma mensagem.
+
+Já na camada de ROTAS, após o salvamento, eu verifico o
+foi retornado dessa promise. Se no resultado da promise
+voltar um atributo ERROR, então eu já sei que deu problema
+no processo de salvamento. Logo, eu interrompo o fluxo 
+retornando um novo 'statusCode' e a mensagem contida dentro
+do atribuito ERROR, justamente o que o teste está esperando.
+
+Já no teste, eu estou esperando um 'statusCode' 400 e a
+descrição do erro, ou seja, a mensagem. Dessa forma, eu
+consigo garantir que o teste seja satisfeito e também consigo
+validar mais uma regra de negócio dentro da minha aplicação.
+
+Sendo assim, o teste foi um sucesso e o método criado para
+satisfazê-lo, também!
+
+Partimos para as próximas validações.
+
+
+ENGLISH
+03/16/2024
+As the name suggests, I will adapt the test and method so that
+it is impossible to insert a user without a name. Although this
+validation can be placed directly in the database by setting the
+'name' attribute to 'Not null', there is no need to reach the
+last layer of the application when we can intercept it beforehand.
+
+First, in the service layer, before saving, I am validating the
+user's name and if it has not been provided, I return an 'ERROR'
+object with a message.
+
+In the route layer, after saving, I check what was returned from
+this promise. If the result of the promise returns an ERROR attribute,
+then I know there was a problem in the saving process. Thus, I interrupt
+the flow by returning a new 'statusCode' and the message contained
+within the ERROR attribute, precisely what the test is expecting.
+
+In the test, I expect a 'statusCode' of 400 and the error description,
+in other words, the message. This way, I can ensure that the test is
+satisfied and also validate another business rule within my application.
+
+Thus, the test was successful and the method created to satisfy it, as
+well!
+
+We move on to the next validations."
