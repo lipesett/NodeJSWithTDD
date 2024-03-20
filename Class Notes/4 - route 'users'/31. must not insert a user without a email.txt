@@ -1,0 +1,31 @@
+PT-BR
+19/03/2024
+Mais uma vez, como o nome sugere, irei adicionar mais uma
+validação de dados criando um novo teste para que seja
+impossível adicionar um usuário sem e-mail.
+
+Porém, irei usar uma outra estrutura para montar este teste
+para mostrar algumas formas diferentes de como trabalhar
+com assincronicidade.
+
+Estive utilizando em todos os métodos e funções, o método
+"request.then" com "return", no teste que irei criar agora,
+usarei o "async/await" que me garante que o retorno do comando
+enviado ao banco seja capturado pela variável, então dessa 
+forma eu consigo utilizá-la para a realização dos testes.
+
+
+ENGLISH
+03/19/2024
+Once again, as the name suggests, I will add one more data
+validation by creating a new test to make it impossible to add
+a user without an email.
+
+However, I will use a different structure to build this test to
+demonstrate some different ways of working with asynchronicity.
+
+I've been using the "request.then" method with "return" in all
+methods and functions. In the test I'm about to create, I will
+use "async/await," which ensures that the command's return sent
+to the database is captured by the variable. This way, I can use
+it to perform the tests.
