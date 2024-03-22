@@ -1,0 +1,35 @@
+PT-BR
+22/03/2024
+Por ora, farei a última validação para inserção de
+usuário na aplicação... agora, não poderá ser inserido
+um usuário com email repetido e para que isso seja
+possível, irei refatorar uma parte dos testes.
+
+Feito a refatoração para atender ao novo teste, sempre
+com feedback instantâneo dos demais para garantir que
+nada se quebrou durante o desenvolvimento, posso assumir
+que por enquanto, o recurso 'USER' está pronto.
+
+Todos os testes estão passando, os cenários imaginados
+funcionaram e respondem bem... então agora é hora de
+adicionar o recurso 'ACCOUNTS'!!
+
+Partiu para o próximo desafio.
+
+
+ENGLISH
+03/22/2024
+For now, I will do the final validation for user insertion
+in the application... now, a user cannot be inserted with
+a repeated email, and to make this possible, I will refactor
+a part of the tests.
+
+After the refactoring to meet the new test, always with
+instant feedback from others to ensure that nothing broke
+during development, I can assume that for now, the 'USER'
+feature is ready.
+
+All tests are passing, the imagined scenarios worked and
+responded well... so now it's time to add the 'ACCOUNTS' feature!!
+
+Moving on to the next challenge.
