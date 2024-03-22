@@ -2,6 +2,8 @@
 const request = require('supertest');
 const app = require('../../src/app');
 
+const email = `${Date.now()}@email.com`
+
 /* 
 WE MUST GET ALL USERS;
 FIRST WE MUST MAKE A REQUEST FOR THE ROUTE '/users';
@@ -27,7 +29,6 @@ WE MUST CAPTURE AND COMPARE THE 'statusCode' OF THE RESPONSE;
 WE MUST VERIFY IF THE PROPERTY "name" SENT HAS THE VALUE OF "Felipe Lucas";
  */
 test('Must inserting a user', () => {
-    const email = `${Date.now()}@email.com`
     return request(app).post('/users')
         .send({ name: "Felipe Lucas", email, "password": 123456 })
         .then(res => {
@@ -65,4 +66,13 @@ test('User must not be instert without a password', (done) => {
             expect(res.body.error).toBe('Password is required');
             done();
         });
+});
+
+test('User must not be inserted with a repeated email', () => {
+    return request(app).post('/users')
+        .send({ name: "Felipe Lucas", email, "password": 123456 })
+        .then(res => {
+            expect(res.statusCode).toBe(400);
+            expect(res.body.error).toBe("There is already a user with this email");
+        })
 });
