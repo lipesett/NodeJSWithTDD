@@ -9,7 +9,6 @@ exports.up = (knex) => {
         t.string('email').notNullable().unique();
         t.string('password').notNullable();
     })
-
 };
 
 /**
