@@ -1,0 +1,41 @@
+PT-BR
+23/03/2024
+Agora que tudo que diz respeito ao 'USUÁRIO' está criado,
+testado e funcionando, hora de fazer um novo recurso, o
+recurso de 'CONTAS'.
+
+O primeiro passo é criar a 'migration' pelo 'KNEX' e inserir
+neste arquivo tudo o que queremos para este novo recurso (ou
+melhor, para a nova tabela), com o seguinte comando:
+'node_modules/.bin/knex migrate:make create_table_accounts --env test'.
+
+Criado a 'migration' e devidamente configurada com os campos
+que desejo inserir na tabela, basta criá-la de fato no banco
+de dados com o comando:
+"node_modules/.bin/knex migrate:latest --env test".
+
+Feito isso, o 'KNEX' fez todo o trabalho pesado e já criou tudo.
+
+Agora posso trabalhar em cima da relação de 'CONTAS' com os
+'USUÁRIOS'.
+
+
+ENGLISH
+03/23/2024
+Now that everything regarding the 'USER' is created, tested, and
+working, it's time to create a new feature, the 'ACCOUNTS' feature.
+
+The first step is to create the migration using 'KNEX' and insert
+everything we want for this new feature (or rather, for the new table)
+into this file, with the following command:
+'node_modules/.bin/knex migrate:make create_table_accounts --env test'.
+
+Once the migration is created and properly configured with the fields
+I want to insert into the table, I simply create it in the database with
+the command:
+"node_modules/.bin/knex migrate:latest --env test".
+
+Having done that, 'KNEX' has done all the heavy lifting and has already
+created everything.
+
+Now I can work on the relationship between 'ACCOUNTS' and 'USERS'.
