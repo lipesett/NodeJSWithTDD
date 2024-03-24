@@ -1,0 +1,57 @@
+PT-BR
+23/03/2024
+Então, a principio, como agora irei trabalhar com uma nova 
+entidade, eu devo criar novas rotas, novostestes e um novo
+"tudo" para atender especificamnte à entidade 'accounts'.
+
+O objetivo é que cada coisa esteja em seu determinado local
+sem que haja interferência de outra coisa cuidando de uma
+outra classe.
+
+Feito a configuração inicial para a camada de testes, com
+um usuário que nunca irá se repetir graças ao 'Date.now()',
+posso começar a de fato criar os testes unitários para cada
+parte que trabalhará com 'accounts'.
+
+Nessa altura, o primeiro teste foi criado e claramente deu
+erro, pois os arquivos que compõe toda a estrutura necessária
+de uma entidade não foram ainda criados.
+Isso só prova o poder dos testes... nesse caso, foi uma
+circunstância muito gritante, a falta de arquivos de configuração
+de rotas e entidades, mas poderia ser uma vírgula fora do lugar,
+algo pequeno quenem o editor de texto acusaria como erro...
+
+Após criada toda a estrtura necessária para que a nova entidade
+funcione corretamente e atenda aos critérios do primeiro teste,
+foi a hora de verificar se de fato o teste foi um sucesso... e
+sim, foi um sucesso (xD).
+
+Dito isso, hora de começar a criar os próximos testes.
+
+
+ENGLISH
+03/23/2024
+So, initially, as I am now going to work with a new entity, I must
+create new routes, new tests, and a new "everything" to specifically
+address the 'accounts' entity.
+
+The goal is to have each thing in its designated place without
+interference from another thing taking care of another class.
+
+Having made the initial setup for the testing layer, with a user
+that will never repeat thanks to 'Date.now()', I can begin to actually
+create the unit tests for each part that will work with 'accounts'.
+
+At this point, the first test was created and clearly failed because
+the files that compose the entire necessary structure of an entity
+were not yet created. This just proves the power of tests... in this
+case, it was a very glaring circumstance, the lack of route and entity
+configuration files, but it could have been a comma out of place,
+something small that even the text editor would not flag as an error...
+
+After creating the entire structure necessary for the new entity
+to function correctly and meet the criteria of the first test, it was
+time to verify if the test was indeed a success... and yes, it was a
+success (xD).
+
+That said, it's time to start creating the next tests.
