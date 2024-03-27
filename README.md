@@ -22,4 +22,3 @@ Consign;<br>
 Knex;<br>
 PG (Postgres);<br>
 Knex-Logger;
-
